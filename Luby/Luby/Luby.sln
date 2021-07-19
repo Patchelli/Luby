@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luby", "Luby\Luby.csproj", "{11CAC272-C577-4DDC-85AD-91D14160B8D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Luby", "Luby\Luby.csproj", "{11CAC272-C577-4DDC-85AD-91D14160B8D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luby.Logic", "Luby.Logic\Luby.Logic.csproj", "{EDDFDE29-2FF0-431E-AD8C-B7038F7F0CB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Luby.Logic", "Luby.Logic\Luby.Logic.csproj", "{EDDFDE29-2FF0-431E-AD8C-B7038F7F0CB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luby.Test", "Luby.Test\Luby.Test.csproj", "{4C3BB4D1-88E8-4C80-B6A2-EC1AEA9FCF6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Luby.Test", "Luby.Test\Luby.Test.csproj", "{4C3BB4D1-88E8-4C80-B6A2-EC1AEA9FCF6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{1544C243-673D-4734-934F-11AAD938B1C3}"
+	ProjectSection(SolutionItems) = preProject
+		SQL.sql = SQL.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
