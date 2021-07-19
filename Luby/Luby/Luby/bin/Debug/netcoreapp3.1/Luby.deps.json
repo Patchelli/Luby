@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Luby/1.0.0": {
+        "dependencies": {
+          "Luby.Logic": "1.0.0"
+        },
+        "runtime": {
+          "Luby.dll": {}
+        }
+      },
+      "Luby.Logic/1.0.0": {
+        "runtime": {
+          "Luby.Logic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Luby/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Luby.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hNKIgkyRgyny0uBci/900yjx/THl8lQeAOMkVv6xBPuMJPVC/yzL/mj9kmnzNStb0hWL09MuaZ1NMpvs76lFjA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Patchelli\\Documents\\PROGRAMAÇÃO\\Luby\\Luby\\Luby\\Luby.Logic\\Luby.Logic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Patchelli\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Patchelli\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
