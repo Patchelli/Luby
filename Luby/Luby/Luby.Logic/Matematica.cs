@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -37,7 +38,7 @@ namespace Luby.Logic
                 throw new ArgumentException("Números negativos são inválidos.");
 
             int totalNumerosPrimos = 0;
-            for (int i = 2; i <= n; i++) 
+            for (int i = 2; i <= n; i++)
             {
                 if (NumeroEhPrimo(i))
                     totalNumerosPrimos++;
@@ -99,7 +100,7 @@ namespace Luby.Logic
 
         public int CalcularDiferencaData(string dataInicial, string dataFinal)
         {
-            
+
             string dataInicialFormatada = AdicionarString(dataInicial);
             string dataFinalFormatada = AdicionarString(dataFinal);
             TimeSpan date = Convert.ToDateTime(dataFinalFormatada) - Convert.ToDateTime(dataInicialFormatada);
@@ -107,6 +108,21 @@ namespace Luby.Logic
             if (dias < 0)
                 throw new ArgumentException("Números negativos são inválidos.");
             return dias;
+        }
+
+        public int []  ObterElementosPares(int[] vetor)
+        {
+            List<int> pares_list = new List<int>();
+            for (int i = 0; i < vetor.Length; i++)
+            {
+                if (vetor[i] % 2 == 0)
+                {
+                    pares_list.Add(vetor[i]);
+                }
+            }
+            int [] arrayPares =  pares_list.ToArray();
+
+            return arrayPares;
         }
 
         private decimal ObterPercentual(string percentual)
