@@ -32,7 +32,7 @@
 
  --2.7 Crie uma query para alterar a tabela 'tabela_pessoa' e adicionar a coluna 'idade' (int)
 
-    ALTER TABLE tabela_pessoa ADD COLUMN idade INT(4) NULL ;
+    ALTER TABLE tabela_pessoa ADD  idade INT(4) NULL ;
 
  -- 2.8 Crie uma query para criar uma tabela chamada 'tabela_telefone' que pertence a uma pessoa com seguintes campos:\
    -- id: int (PK)
