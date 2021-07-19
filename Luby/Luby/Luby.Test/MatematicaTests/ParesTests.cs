@@ -37,5 +37,13 @@ namespace Luby.Test.MatematicaTests
             int[] resultado = _matematica.ObterElementosPares(vetor);
             Assert.Equal(new int[] { 0 }, resultado);
         }
+
+        [Theory]
+        [InlineData(new int[] { -2 })]
+        public void ObterElementosPares_should_returns_negative(int[] vetor)
+        {
+            int[] resultado = _matematica.ObterElementosPares(vetor);
+            Assert.Equal(new int[] { -2 }, resultado);
+        }
     }
 }
