@@ -23,7 +23,7 @@ namespace Luby.Test.MatematicaTests
         }
 
         [Theory]
-        [InlineData("10122020", "25122020")]
+        [InlineData("25122020", "10122020")]
         public void CalcularDiferencaData_should_throw_argument_exception_when_number_is_less_then_zero(string dataInicial, string dataFinal)
         {
             var exception = Assert.Throws<ArgumentException>(() => _matematica.CalcularDiferencaData(dataInicial,dataFinal));

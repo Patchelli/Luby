@@ -99,11 +99,13 @@ namespace Luby.Logic
 
         public int CalcularDiferencaData(string dataInicial, string dataFinal)
         {
+            
             string dataInicialFormatada = AdicionarString(dataInicial);
             string dataFinalFormatada = AdicionarString(dataFinal);
             TimeSpan date = Convert.ToDateTime(dataFinalFormatada) - Convert.ToDateTime(dataInicialFormatada);
             int dias = date.Days;
-
+            if (dias < 0)
+                throw new ArgumentException("Números negativos são inválidos.");
             return dias;
         }
 

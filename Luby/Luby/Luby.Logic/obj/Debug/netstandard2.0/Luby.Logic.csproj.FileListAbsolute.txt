@@ -7,3 +7,12 @@ C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby2\Luby\Luby.Logic\obj\Debug\
 C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby2\Luby\Luby.Logic\obj\Debug\netstandard2.0\Luby.Logic.csproj.CoreCompileInputs.cache
 C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby2\Luby\Luby.Logic\obj\Debug\netstandard2.0\Luby.Logic.dll
 C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby2\Luby\Luby.Logic\obj\Debug\netstandard2.0\Luby.Logic.pdb
+C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby\Luby\Luby.Logic\bin\Debug\netstandard2.0\Luby.Logic.deps.json
+C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby\Luby\Luby.Logic\bin\Debug\netstandard2.0\Luby.Logic.dll
+C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby\Luby\Luby.Logic\bin\Debug\netstandard2.0\Luby.Logic.pdb
+C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby\Luby\Luby.Logic\obj\Debug\netstandard2.0\Luby.Logic.csproj.AssemblyReference.cache
+C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby\Luby\Luby.Logic\obj\Debug\netstandard2.0\Luby.Logic.AssemblyInfoInputs.cache
+C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby\Luby\Luby.Logic\obj\Debug\netstandard2.0\Luby.Logic.AssemblyInfo.cs
+C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby\Luby\Luby.Logic\obj\Debug\netstandard2.0\Luby.Logic.csproj.CoreCompileInputs.cache
+C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby\Luby\Luby.Logic\obj\Debug\netstandard2.0\Luby.Logic.dll
+C:\Users\Patchelli\Documents\PROGRAMAÇÃO\Luby\Luby\Luby\Luby.Logic\obj\Debug\netstandard2.0\Luby.Logic.pdb
