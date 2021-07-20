@@ -124,6 +124,74 @@ namespace Luby.Logic
             return pares_list.ToArray();
         }
 
+        public string [] BuscarPessoa (string [] nomes, string nome)
+        {
+            verificarNomeIsEmptyOrNull(nome);
+            List<string> lst_nomes = new List<string>();
+            for (int i = 0; i < nomes.Length; i++) {
+                if (nomes[i].Contains(nome))
+                {
+                    lst_nomes.Add(nomes[i]);
+                } 
+            }
+            verificarListExist(lst_nomes);
+            return lst_nomes.ToArray();
+        }
+
+        public int [,] TransformarEmMatriz(string numerosString)
+        {
+            if (numerosString.Length % 2 != 0)
+            {
+                numerosString = numerosString + ",-1";
+            }
+            string[] aux = numerosString.Split(',');
+            int[,] res = new int[aux.Length / 2, 2];
+
+            for (int i = 0, k = 0; i < aux.Length / 2; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    res[i, j] = int.Parse(aux[k]);
+                    k++;
+                }
+            }
+            return res;
+        }
+
+        public int[] ObterElementosFaltantes(int[] vetor_1, int[] vetor_2)
+        {
+            var res = new List<int>();
+
+            var aux1 = vetor_1.ToList();
+            var aux2 = vetor_2.ToList();
+
+            for (int i = 0; i < vetor_1.Length; i++)
+            {
+                if (aux2.Contains(vetor_1[i]))
+                {
+                    aux2.Remove(vetor_1[i]);
+                }
+            }
+
+            for (int i = 0; i < vetor_2.Length; i++)
+            {
+                if (aux1.Contains(vetor_2[i]))
+                {
+                    aux1.Remove(vetor_2[i]);
+                }
+            }
+            foreach (int i in aux1)
+            {
+                res.Add(i);
+            }
+            foreach (int i in aux2)
+            {
+                res.Add(i);
+            }
+
+            return res.ToArray();
+        }
+
         private decimal ObterPercentual(string percentual)
         {
             return ObterValor(percentual) / 100;
@@ -149,6 +217,22 @@ namespace Luby.Logic
         {
             string dataFormatada = data.Insert(2, "/").Insert(5, "/");
             return dataFormatada;
+        }
+
+        private void verificarNomeIsEmptyOrNull(string nome)
+        {
+            if (String.IsNullOrEmpty(nome))
+            {
+                throw new ArgumentException("Nome vázio ou Nulo.");
+            }
+        }
+
+        private void verificarListExist(List<string> lst_nomes)
+        {
+          if (!lst_nomes.Any())
+            {
+                throw new ArgumentException("Nome não existe na lista!");
+            }
         }
 
         private Vogais _Vogais { get; set; }
