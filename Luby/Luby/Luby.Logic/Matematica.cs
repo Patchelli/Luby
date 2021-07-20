@@ -112,16 +112,12 @@ namespace Luby.Logic
 
         public int []  ObterElementosPares(int[] vetor)
         {
-            List<int> pares_list = new List<int>();
-            for (int i = 0; i < vetor.Length; i++)
-            {
-                if (vetor[i] % 2 == 0)
-                {
-                    pares_list.Add(vetor[i]);
-                }
-            }
+            IEnumerable<int> result =
+                 from num in vetor
+                 where num % 2 == 0
+                 select num;
 
-            return pares_list.ToArray();
+            return result.ToArray();
         }
 
         public string [] BuscarPessoa (string [] nomes, string nome)
