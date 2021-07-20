@@ -120,9 +120,8 @@ namespace Luby.Logic
                     pares_list.Add(vetor[i]);
                 }
             }
-            int [] arrayPares =  pares_list.ToArray();
 
-            return arrayPares;
+            return pares_list.ToArray();
         }
 
         private decimal ObterPercentual(string percentual)
